@@ -30,9 +30,9 @@ def map_to_square(source_array)
 end
 
 def reduce_to_total(source_array, starting_point)
-  counter = 0
+  
   source_array.each do |i|
-    counter += i
+    starting_point += i
   end
   counter
 end
