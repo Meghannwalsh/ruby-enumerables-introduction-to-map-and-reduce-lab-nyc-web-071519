@@ -1,9 +1,9 @@
 # My Code here....
 def map_to_negativize(source_array)
-  array.map do |ele|
+  source_array.map do |ele|
     ele *= -1
   end
-    array
+    source_array
 end
 
 def map_to_no_change(source_array)
@@ -22,4 +22,4 @@ def reduce_to_all_true(source_array)
 end
 
 def reduce_to_any_true(source_array)
-end 
+end
