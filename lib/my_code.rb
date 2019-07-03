@@ -22,10 +22,11 @@ def map_to_double(source_array)
 end
 
 def map_to_square(source_array)
+  new_arr = []
   source_array.map do |num|
-    num *= num
+    new_arr << num * num
   end
-  source_array
+  new_arr
 end
 
 def reduce_to_total(source_array, starting_point)
