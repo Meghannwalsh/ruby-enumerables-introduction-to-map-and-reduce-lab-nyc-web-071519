@@ -1,9 +1,10 @@
 # My Code here....
 def map_to_negativize(source_array)
+  new_arr = []
   source_array.map do |ele|
-    ele *= -1
+    new_arr << ele * -1
   end
-    source_array
+    new_arr
 end
 
 def map_to_no_change(source_array)
